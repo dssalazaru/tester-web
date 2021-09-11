@@ -5,8 +5,13 @@ Git By DSSU
 Este archivo es una prueba de trabajo en git
 
 Solo se practicaran los comando basicos
+
 Comando editados:
- git init
- git status
- git add
- git commit
+
+git init
+
+git status
+
+git add
+
+git commit
