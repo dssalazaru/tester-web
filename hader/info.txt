@@ -1,0 +1,128 @@
+List: padres-pregrado,  Owners: admlist-pre@listas.icesi.edu.co
+List: prog-quf-02,      Owners: admlist-pre@listas.icesi.edu.co
+List: comite_tic_apoyoacademico,        Owners: josem@icesi.edu.co
+List: prog-quf-07,      Owners: admlist-pre@listas.icesi.edu.co
+List: mba-paris,        Owners: amceron@icesi.edu.co, josem@icesi.edu.co
+List: info-doctorados,  Owners: ysilva@icesi.edu.co
+List: facturacionmercadeo,      Owners: hcalero@icesi.edu.co
+List: prog-soc-04,      Owners: admlist-pre@icesi.edu.co
+List: posgradosfcae,    Owners: begonzales@icesi.edu.co, asalegrias@icesi.edu.co
+List: jefes-depto-acad,         Owners: admlist-emp@icesi.edu.co
+List: prog-psi-08,      Owners: admlist-pre@icesi.edu.co
+List: prog-med-04,      Owners: admlist-pre@listas.icesi.edu.co
+List: prog-lbp-01,      Owners: admlist-pre@listas.icesi.edu.co
+List: prof-log,         Owners: ablanco@icesi.edu.co, mgceball@icesi.edu.co
+List: prog-biologia,    Owners: ypatino@icesi.edu.co
+List: prog-tel-02,      Owners: admlist-pre@icesi.edu.co
+List: prog-eco-02,      Owners: admlist-pre@icesi.edu.co
+List: prog-com-03,      Owners: admlist-pre@listas.icesi.edu.co
+List: comite-invest,    Owners: cmurcia@icesi.edu.co
+List: mercadeoeducontinua,      Owners: bemartinez@icesi.edu.co, vktrujillo@icesi.edu.co
+List: ciacer,   Owners: hmpachajoa@icesi.edu.co, fruiz@icesi.edu.co
+List: prog-mip-06,      Owners: admlist-pre@icesi.edu.co
+List: profesores-tc,    Owners: admlist-prof@listas.icesi.edu.co
+List: prog-soc-03,      Owners: admlist-pre@icesi.edu.co
+List: prog-ibq-10,      Owners: admlist-pre@listas.icesi.edu.co
+List: dirprefi,         Owners: dlmurcia@icesi.edu.co
+List: prog-soc-02,      Owners: admlist-pre@icesi.edu.co
+List: egresados,        Owners: cmachado@icesi.edu.co, acalzate@icesi.edu.co
+List: prog-sis-06,      Owners: admlist-pre@icesi.edu.co
+List: prog-lcs-06,      Owners: admlist-pre@listas.icesi.edu.co
+List: docentes-clinicos-fvl,    Owners: gquintero@icesi.edu.co
+List: acreditacion-institucional,       Owners: dtobon@icesi.edu.co, jlperez@icesi.edu.co
+List: tertulia_icesi,   Owners: afcano@icesi.edu.co
+List: maestriasfcae,    Owners: begonzalez@icesi.edu.co, asalegrias@icesi.edu.co
+List: fcn,      Owners: jfaranguren@icesi.edu.co
+List: secretarias,      Owners: admlist-emp@icesi.edu.co, accalambas@icesi.edu.co
+List: prof-alg-lin,     Owners: ablanco@icesi.edu.co, mgceball@icesi.edu.co
+List: prog-mip-10,      Owners: admlist-pre@icesi.edu.co
+List: sinergia,         Owners: egallego@icesi.edu.co
+List: prog-lei-08,      Owners: admlist-pre@listas.icesi.edu.co
+List: fedeicesi_cyc,    Owners: adminred@icesi.edu.co
+List: estudiantescomunicacion,  Owners: mguerrero@icesi.edu.co, ysalazar@icesi.edu.co
+List: prog-med-06,      Owners: admlist-pre@listas.icesi.edu.co
+List: infoposgradosfcae,        Owners: labeltran@icesi.edu.co, macruz@icesi.edu.co
+List: profesorestcp,    Owners: jmilanese@icesi.edu.co, faguerrero@icesi.edu.co
+List: egresadoscip,     Owners: lmquesada@icesi.edu.co, jgalbarracin@icesi.edu.co
+List: prog-mip-02,      Owners: admlist-pre@icesi.edu.co
+List: recruiterbanner,  Owners: lfranco@icesi.edu.co
+List: prog-quf-09,      Owners: admlist-pre@listas.icesi.edu.co
+List: desarrollo-fin,   Owners: jhyela@icesi.edu.co
+List: prog-lyl-07,      Owners: admlist-pre@listas.icesi.edu.co
+List: prog-psi-05,      Owners: admlist-pre@icesi.edu.co
+List: prog-lcn-06,      Owners: admlist-pre@listas.icesi.edu.co
+List: prog-com-07,      Owners: admlist-pre@listas.icesi.edu.co
+List: reporteventos,    Owners: rasolarte@icesi.edu.co
+List: herbarioicesi,    Owners: wgvargas@icesi.edu.co
+List: prog-eni-06,      Owners: admlist-pre@icesi.edu.co
+List: egresadosqui,     Owners: ypatino@icesi.edu.co, atorres1@icesi.edu.co
+List: prog-bio-02,      Owners: admlist-pre@listas.icesi.edu.co
+List: prog-med-01,      Owners: admlist-pre@listas.icesi.edu.co
+List: ges-humana,       Owners: cagutierrez@icesi.edu.co, apino@icesi.edu.co, lvalencia@icesi.edu.co
+List: prog-bio-01,      Owners: admlist-pre@listas.icesi.edu.co
+List: simposio-niif,    Owners: colopez@icesi.edu.co
+List: directoresfcae,   Owners: pcortes@icesi.edu.co
+List: procesos-bib,     Owners: jforero@icesi.edu.co
+List: ptctic,   Owners: dlmurcia@icesi.edu.co
+List: ptcmat,   Owners: yquintana@icesi.edu.co
+List: prog-cip-10,      Owners: admlist-pre@icesi.edu.co
+List: prog-lcs-09,      Owners: admlist-pre@listas.icesi.edu.co
+List: prog-eni-08,      Owners: admlist-pre@icesi.edu.co
+List: prog-fin-03,      Owners: admlist-pre@icesi.edu.co
+List: estudiantes-pre-icetex,   Owners: admlist-pre@listas.icesi.edu.co
+List: base_de_datos_cies,       Owners: dcrodriguez@icesi.edu.co, dccuadros@icesi.edu.co, caporali@icesi.edu.co
+List: profesoreshcs,    Owners: ihvalencia@icesi.edu.co, faguerrero@icesi.edu.co
+List: evaluacionbsl,    Owners: lfprado@icesi.edu.co, hfgil@icesi.edu.co
+List: milista,  Owners: gvilla@icesi.edu.co
+List: profesores-hc,    Owners: admlist-prof@listas.icesi.edu.co
+List: info-maestrias,   Owners: ysilva@icesi.edu.co
+List: prog-cof-10,      Owners: admlist-pre@listas.icesi.edu.co
+List: prog-lcn-05,      Owners: admlist-pre@listas.icesi.edu.co
+List: talentosa1,       Owners: mplopez@icesi.edu.co
+List: pfsgycoficinas,   Owners: hfgil@icesi.edu.co
+List: calculo_integrall,        Owners: ablanco@icesi.edu.co, mgceball@icesi.edu.co
+List: laboratorioibq,   Owners: hncaicedo@icesi.edu.co, drlopez@icesi.edu.co
+List: almacen,  Owners: hcalero@icesi.edu.co
+List: boletincdee,      Owners: atpena@icesi.edu.co
+List: icecomexnaturales,        Owners: dgarcia@icesi.edu.co
+List: dpto-ciencias-quimicas,   Owners: ijjaramillo@icesi.edu.co, atorres1@icesi.edu.co, ccrestrepo@icesi.edu.co
+List: direccion-comercial,      Owners: jmcarvajal@icesi.edu.co, pruiz@icesi.edu.co, vrneira@icesi.edu.co
+List: pago-eventos,     Owners: josem@icesi.edu.co
+List: saberpronacional,         Owners: jpaz@icesi.edu.co, mvasquez@icesi.edu.co, rmoncale@icesi.edu.co
+List: prog-lbp-06,      Owners: admlist-pre@listas.icesi.edu.co
+List: prog-ibq-03,      Owners: admlist-pre@listas.icesi.edu.co
+List: comiteoperativo,  Owners: ljgonzalez1@icesi.edu.co, jlperez@icesi.edu.co
+List: fedeicesi_ryl,    Owners: adminred@icesi.edu.co
+List: prog-sis-05,      Owners: admlist-pre@icesi.edu.co
+List: prog-lbp-07,      Owners: admlist-pre@listas.icesi.edu.co
+List: est-posgrado,     Owners: admlist-post@listas.cesi.edu.co
+List: asistentes-prog-pre,      Owners: admlist-emp@listas.icesi.edu.co
+List: prog-ind-08,      Owners: admlist-pre@icesi.edu.co
+List: prog-lcn-04,      Owners: admlist-pre@listas.icesi.edu.co
+List: prog-dis-03,      Owners: admlist-pre@icesi.edu.co
+List: dipgestionsocial,         Owners: lmalcala@icesi.edu.co
+List: prog-cip-07,      Owners: admlist-pre@icesi.edu.co
+List: comunicaciones,   Owners: jdsandoval@icesi.edu.co
+List: soporte-desarrollo,       Owners: lfranco@icesi.edu.co, aorozco@icesi.edu.co, azapata@icesi.edu.co, jsvargas@icesi.edu.co
+List: startupegresados,         Owners: yaguilar@icesi.edu.co
+List: prog-lbp-09,      Owners: admlist-pre@listas.icesi.edu.co
+List: secretarias-prog-pre,     Owners: accalambas@icesi.edu.co
+List: prog-cof-07,      Owners: admlist-pre@listas.icesi.edu.co
+List: relacionesinternacionales,        Owners: macruz@icesi.edu.co
+List: prog-lyl-04,      Owners: admlist-pre@listas.icesi.edu.co
+List: disenomas,        Owners: hdarango@icesi.edu.co, jaaguirre@icesi.edu.co
+List: profesoresfdcs,   Owners: bchamorr@icesi.edu.co
+List: mantenimientoservidores,  Owners: rsolarte@icesi.edu.co
+List: prog-cip-08,      Owners: admlist-pre@icesi.edu.co
+List: prog-sis-08,      Owners: admlist-pre@icesi.edu.co
+List: asesoresdecarreracedep,   Owners: vtorres1@icesi.edu.co, mvelasco@icesi.edu.co
+List: comite-planeacion,        Owners: hfgil@icesi.edu.co, maosorio@icesi.edu.co
+List: servicio-salas,   Owners: dmjimenez@icesi.edu.co, spsalazar@icesi.edu.co
+List: salon_contable,   Owners: colopez@icesi.edu.co
+List: asesoresinternacionales,  Owners: voviedo@icesi.edu.co, mvelasco@icesi.edu.co
+List: prog-cof-04,      Owners: admlist-pre@listas.icesi.edu.co
+List: prog-med-12,      Owners: admlist-pre@listas.icesi.edu.co
+List: escuelacienciasdelaeducacion,     Owners: apazrueda@icesi.edu.co
+List: eudii,    Owners: mpsegura@icesi.edu.co
+List: prog-com-09,      Owners: admlist-pre@listas.icesi.edu.co
+List: prog-cip-04,      Owners: admlist-pre@icesi.edu.co
