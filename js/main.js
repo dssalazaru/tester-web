@@ -10,3 +10,5 @@ var ds = "Daniel Salazar";
 var time = new Date().getHours() + ":" + new Date().getMinutes();
 var hello = document.getElementById('hello');
 hello.innerHTML = "Hola mundo soy " + ds + "\nSon las " + time;
+
+//``

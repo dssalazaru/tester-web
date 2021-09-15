@@ -11218,40 +11218,5 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-.up {
-	display:none;
-	padding:6px;
-	background:#00aaaa;
-	color:#fff;
-	cursor:pointer;
-	position: fixed;
-	bottom:20px;
-	right:20px;
-  border-radius: 100%;
-}
-section {
-  width: 90%;
-  margin: 1em auto;
-  border: 2px solid black;
-  border-radius: 20px;
-}
-#col1 {
-  width: 10%;
-  text-align: center;
-}
-#col2 {
-  width: 30%;
-}
-#col3 {
-  width: 50%;
-}
-footer div{
-  background-color: #00000033;
-}
-a:hover {
-  color: #00aaaa !important;
-}
-tbody tr:hover {
-  background-color: #00aaaa !important;
-}
+
 /*# sourceMappingURL=bootstrap.css.map */
