@@ -1,0 +1,103 @@
+
+:root {
+    --green-primary: #25C142;
+    --green-light: #A0F7A4;
+    --green-dark: #196618;
+    --green-aside: #E3F8CD;
+}
+
+
+/* Formato base */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100% !important;
+}
+
+/* Header */
+
+header{
+    background-color: var(--green-primary);
+    border-bottom: 0.2rem solid black;
+}
+
+header h1 {
+    font-size: 3rem;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+    text-shadow: 0.2rem 0.2rem 0.2rem black;
+}
+
+/* Aside */
+
+aside {
+    width: 30%;
+    height: 100%;
+    background-color: var(--green-aside);
+}
+
+aside * {
+    padding: 0.5rem 0.5rem;
+}
+
+aside h2{
+    padding-left: 1.5rem;
+    background-color: black;
+    color: white;
+}
+
+aside ul li a {
+    color: black;
+    font-weight: bold;
+}
+
+aside ul li {
+    border-bottom: 0.1rem dashed black;
+}
+
+/* main */
+
+main h2{
+    font-size: 2rem;
+    color: black;
+    padding: 1rem 1rem;
+}
+
+main p {
+    background-color: var(--green-light);
+    margin: 0.8rem;
+    padding: 2rem;
+    border: 0.1rem solid var(--green-primary);
+}
+
+main h2 {
+    border-bottom: 0.2rem solid black;
+}
+
+main section h2 {
+    border: none;
+}
+
+main article {
+    border: 0.1rem solid var(--green-dark);
+    border-bottom: 0.5rem solid var(--green-dark);
+    width: 20%;
+    margin: 1rem;
+    display: inline-block;
+}
+
+article h3 {
+    background-color:  var(--green-dark);
+    
+}
+
+article ul li {
+    padding: 0 1rem;
+}
