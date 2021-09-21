@@ -25,44 +25,55 @@ img {
 header{
     background-color: var(--green-primary);
     border-bottom: 0.2rem solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 6rem;
 }
 
 header h1 {
     font-size: 3rem;
     color: white;
-    padding: 1rem 0;
-    text-align: center;
     text-shadow: 0.2rem 0.2rem 0.2rem black;
 }
 
-/* Aside */
+/* wrapper */
+
+#wrapper {
+    display: flex;
+    /*display: grid;
+    grid-template-columns: 20% 80%;*/
+}
+
+/* aside */
 
 aside {
-    width: 30%;
-    height: 100%;
+    width: 20rem;
     background-color: var(--green-aside);
 }
 
-aside * {
-    padding: 0.5rem 0.5rem;
-}
-
 aside h2{
-    padding-left: 1.5rem;
+    padding: 0.6rem 1rem;
     background-color: black;
     color: white;
 }
 
 aside ul li a {
     color: black;
+    
     font-weight: bold;
 }
 
 aside ul li {
+    padding: 0.6rem 1rem;
     border-bottom: 0.1rem dashed black;
 }
 
 /* main */
+
+main {
+    flex: 1;
+}
 
 main h2{
     font-size: 2rem;
@@ -88,7 +99,6 @@ main section h2 {
 main article {
     border: 0.1rem solid var(--green-dark);
     border-bottom: 0.5rem solid var(--green-dark);
-    width: 20%;
     margin: 1rem;
     display: inline-block;
 }
@@ -100,4 +110,12 @@ article h3 {
 
 article ul li {
     padding: 0 1rem;
+}
+
+/* footer */
+
+footer {
+    display: flex;
+    background-color: var(--green-primary);
+    height: 6rem;
 }
