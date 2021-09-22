@@ -60,7 +60,6 @@ aside h2{
 
 aside ul li a {
     color: black;
-    
     font-weight: bold;
 }
 
@@ -72,50 +71,69 @@ aside ul li {
 /* main */
 
 main {
-    flex: 1;
+    min-height: calc(100vh - 10rem);
 }
 
 main h2{
     font-size: 2rem;
     color: black;
     padding: 1rem 1rem;
+    border-bottom: 0.2rem solid black;
 }
 
 main p {
     background-color: var(--green-light);
-    margin: 0.8rem;
+    margin: 1rem;
     padding: 2rem;
     border: 0.1rem solid var(--green-primary);
 }
 
-main h2 {
-    border-bottom: 0.2rem solid black;
+main h3{
+    font-size: 2rem;
+    color: black;
+    padding: 0 0 1rem 1rem;
 }
 
-main section h2 {
-    border: none;
+main section {
+    display: flex;
 }
 
 main article {
     border: 0.1rem solid var(--green-dark);
     border-bottom: 0.5rem solid var(--green-dark);
-    margin: 1rem;
-    display: inline-block;
+    margin-right: 1rem;
+    width: 33%;
 }
 
-article h3 {
-    background-color:  var(--green-dark);
-    
+main article:first-child {
+    margin-left: 1rem;
+}
+
+article h4 {
+    background-image: linear-gradient(to right, var(--green-dark), #fff);
+    outline: 0.1rem solid var(--green-dark);
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    color: #fff;
+    text-shadow: 3px 3px 3px #000;
 }
 
 article ul li {
-    padding: 0 1rem;
+    margin: 0.2rem 1.5rem;
 }
 
 /* footer */
 
 footer {
     display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: var(--green-primary);
-    height: 6rem;
+    height: 4rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+}
+footer p {
+    padding-right: 0.3rem;
 }
