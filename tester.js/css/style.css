@@ -1,0 +1,27 @@
+/* Raiz
+:root {
+    --color: #fff
+}
+*/
+
+/* Formato base */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100% !important;
+}
+
+/* Styles */
+
+.olo {
+    width: 30%;
+    padding: 5rem;
+    margin: auto;
+    background-color: coral;
+}
