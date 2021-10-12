@@ -31,16 +31,27 @@
 <body>
     </h1>
     <header>
-        <h1>*videos</h1>
-        <button onclick="toggleLang(lang)">
+        <h1 class="title">*videos</h1>
+        <button onclick="toggleLang()">
             <span id="lang">ES</span>
         </button>
     </header>
+    <div class="container">
+        <div class="olo">
+            <span id="olo-msg">Hola Mundo!</span>
+            <div class="counter"></div>
+            <button onclick="contar()">Contar</button>
+            <div class="tel"></div>
+            <div>
+                <input type="number" name="num">
+                <button onclick="addnumer()">Add</button>
+            </div>
+        </div>
 
-    <div class="olo">
-        <span id="olo-msg"></span>
+        <div class="olo">
+            <div class="perfil"></div>
+        </div>
     </div>
-
 
     <!-- Bootstrap JavaScript Bundle -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"

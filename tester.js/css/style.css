@@ -19,9 +19,16 @@ img {
 
 /* Styles */
 
+/* .container .olo:first-child *{
+    display: none;
+}.container .olo:first-child{
+    display: none;
+} */
+
 .olo {
-    width: 30%;
-    padding: 5rem;
+    width: 80%;
+    padding: 4rem;
     margin: auto;
     background-color: coral;
+    margin-bottom: 2rem;
 }
