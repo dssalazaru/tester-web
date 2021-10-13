@@ -32,3 +32,8 @@ img {
     background-color: coral;
     margin-bottom: 2rem;
 }
+
+.blank {
+    min-height: 100%;
+    min-height: 100vh;
+}

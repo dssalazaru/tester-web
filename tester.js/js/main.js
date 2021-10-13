@@ -33,10 +33,9 @@ const getData = () => {
      fetchData('/voleibol/equipos');
     };
 
-function loading() {
-    const body = document.querySelector("body");
+function loading(body) {
     body.innerHTML = `
-    <div class="d-flex justify-content-center">
+    <div class="d-flex justify-content-center align-items-center blank">
         <div class="spinner-border text-info" role="status">
             <span class="visually-hidden">...</span>
         </div>
@@ -47,5 +46,9 @@ function loading() {
 
 window.onload = () => {
     // getData();
-    loading()
+    const body = document.querySelector("body");
+    loading(body)
+    setTimeout(() => {
+        body.innerHTML = body.textContent;
+    }, 2000);
 };
