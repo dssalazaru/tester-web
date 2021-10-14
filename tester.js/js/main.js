@@ -21,7 +21,7 @@ const fetchData = (api) => {
         console.log(response.status);
         console.log(response.statusText);
     })
-    // .then((data) => loadData(data))
+    .then((data) => {return data})
     .catch((e) => {
         console.error(dbtester + '/voleibol/equipos.json\n'+e);
     });
@@ -33,25 +33,36 @@ const getData = () => {
      fetchData('/voleibol/equipos');
     };
 
-function loading(body) {
-    body.innerHTML = `
-    <div class="d-flex justify-content-center align-items-center blank">
-        <div class="spinner-border text-info" role="status">
-            <span class="visually-hidden">...</span>
-        </div>
-    </div>
-    `;
-}
-
-
-window.onload = () => {
-    // getData();
+function loading() {
     const loading = document.querySelector(".loading");
     const body = document.querySelector(".content");
     body.classList.toggle('d-none');
-    // loading(body)
     setTimeout(() => {
         loading.classList.toggle('d-none');
         body.classList.toggle('d-none');
     }, 2000);
+}
+
+let input = "";
+
+document.querySelector('#getIn')
+.addEventListener('click', (event) => {
+    event.preventDefault();
+    rutaApi = document.querySelector('#rutaApi').value;
+    rutaApi = "works";
+    if (rutaApi == ""){
+        input = rutaApi;
+        rutaApi = " ";
+    };
+});
+
+document.querySelector('#nav-reload')
+.addEventListener('click', (event) => {
+    event.preventDefault();
+    console.log(input);
+});
+
+window.onload = () => {
+    loading()
+
 };
