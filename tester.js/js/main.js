@@ -46,9 +46,12 @@ function loading(body) {
 
 window.onload = () => {
     // getData();
-    const body = document.querySelector("body");
-    loading(body)
+    const loading = document.querySelector(".loading");
+    const body = document.querySelector(".content");
+    body.classList.toggle('d-none');
+    // loading(body)
     setTimeout(() => {
-        body.innerHTML = body.textContent;
+        loading.classList.toggle('d-none');
+        body.classList.toggle('d-none');
     }, 2000);
 };
