@@ -37,6 +37,10 @@ h5 {
     margin: 0 !important;
 }
 
+.current {
+    text-decoration: underline 2px #383B40 !important;
+}
+
 /* Loading */
 
 .blank {

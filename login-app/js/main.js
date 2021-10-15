@@ -1,5 +1,6 @@
 let auth = false
-const nav = document.querySelectorAll('[id^=link]');
+const nav = document.querySelectorAll('.nav-item');
+const link = document.querySelectorAll('[id^=link]');
 const pages = document.querySelectorAll('[id^=page]');
 const backend = 'https://tester-15f26-default-rtdb.firebaseio.com/'
 
@@ -15,7 +16,7 @@ const loading = () => {
 
 const menu = () => {
     console.log("Runing nav...done");
-    nav.forEach((element) => {
+    link.forEach((element) => {
         let id = element.id.split('-')[1];
         document.querySelector(`#page-${id}`).classList.add('d-none');
         element.addEventListener('click', (event) => {
@@ -28,11 +29,10 @@ const menu = () => {
 
 
 const activePage = (id) => {
-    nav.forEach((element) => element.classList.remove('active'));
+    link.forEach((element) => element.classList.remove('current'));
     pages.forEach((element) => element.classList.add('d-none'));
-    document.querySelector(`#link-${id}`).classList.add('active');
+    document.querySelector(`#link-${id}`).classList.add('current');
     document.querySelector(`#page-${id}`).classList.remove('d-none');
-    if (auth == true) document.querySelector("#nav-2").classList.add('d-none');
 }
 
 const logIn = () => {
@@ -77,9 +77,19 @@ const validateLogin = (info) => {
         .catch((e) => console.error(e))
 }
 
+const noAuth = () => {
+    const noauth = document.querySelectorAll(".no-auth");
+    noauth.forEach((element) => {
+        if (element.classList.contains('nav-link')) element.classList.toggle('disabled');
+        else element.classList.toggle('d-none');
+    })
+    console.log(noauth);
+    if (auth == true) document.querySelector("#nav-2").classList.add('d-none');
+}
 window.onload = () => {
     loading();
     menu();
     activePage('home');
     logIn();
+    noAuth();
 };

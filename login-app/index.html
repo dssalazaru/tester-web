@@ -43,18 +43,18 @@
     </div>
 
     <header class="d-none fixed-top" id="header">
-        <ul class="nav justify-content-center bg-light">
+        <ul class="nav nav-pills justify-content-center bg-light">
             <li class="nav-item" id="link-home">
-                <a href="" class="nav-link text-dark" id="nav-1">Home</a>
+                <a href="" class="nav-link text-dark">Home</a>
             </li>
             <li class="nav-item" id="link-login">
-                <a href="" class="nav-link text-dark" id="nav-2">Login</a>
+                <a href="" class="nav-link text-dark no-auth">Login</a>
             </li>
             <li class="nav-item" id="link-teams">
-                <a href="" class="nav-link text-dark" id="nav-3">Teams</a>
+                <a href="" class="nav-link text-dark">Teams</a>
             </li>
             <li class="nav-item" id="link-games">
-                <a href="" class="nav-link text-dark" id="nav-4">Games</a>
+                <a href="" class="nav-link text-dark">Games</a>
             </li>
         </ul>
     </header>
@@ -105,24 +105,34 @@
             </section>
             <section class="container my-5" id="page-teams">
                 <div class="w-75 mx-auto">
-                    <div class="row">
-                        <h2 class="fw-bold text-center style">TEAMS</h2>
-                        <a href="" class="btn btn-dark border w-50 mx-auto my-2">GET</a>
+                    <h2 class="fw-bold text-center style">TEAMS</h2>
+
+                    <div class="alert alert-warning text-center no-auth d-none" role="alert">
+                        Debes ingresar para poder ver los datos!
                     </div>
-                    <ul class="list-group list-group-flush mx-auto">
-                        <!-- <li class="list-group-item"></li> -->
-                    </ul>
-                </div>
+                    <div class="no-auth">
+                        <div class="row">
+                            <a href="" class="btn btn-dark border w-50 mx-auto my-2">GET</a>
+                        </div>
+                        <ul class="list-group list-group-flush mx-auto no-auth">
+                            <!-- <li class="list-group-item"></li> -->
+                        </ul>
+                    </div>
             </section>
             <section class="container my-5" id="page-games">
                 <div class="w-75 mx-auto">
-                    <div class="row">
-                        <h2 class="fw-bold text-center style">GAMES</h2>
-                        <a href="" class="btn btn-dark border w-50 mx-auto my-2">GET</a>
+                    <h2 class="fw-bold text-center style">GAMES</h2>
+                    <div class="alert alert-warning text-center no-auth d-none" role="alert">
+                        Debes ingresar para poder ver los datos!
                     </div>
-                    <ul class="list-group list-group-flush mx-auto">
-                        <!-- <li class="list-group-item"></li> -->
-                    </ul>
+                    <div class="no-auth">
+                        <div class="row">
+                            <a href="" class="btn btn-dark border w-50 mx-auto my-2">GET</a>
+                        </div>
+                        <ul class="list-group list-group-flush mx-auto">
+                            <!-- <li class="list-group-item"></li> -->
+                        </ul>
+                    </div>
                 </div>
             </section>
         </main>
